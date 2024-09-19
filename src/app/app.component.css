@@ -1,0 +1,17 @@
+.container-map{
+    height: 500px;
+    width: 500px;
+    margin: 25px;
+}
+nav{
+    background-color: black;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 20px;
+}
+.nav-item{
+    color: white;
+}

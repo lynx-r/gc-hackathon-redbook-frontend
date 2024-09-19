@@ -1,8 +1,12 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideHttpClient } from '@angular/common/http';
+import { ApplicationConfig } from '@angular/core';
 
-import { routes } from './app.routes';
+import { provideYConfig, YConfig } from 'angular-yandex-maps-v3';
+
+const config: YConfig = {
+  apikey: '02f8a573-862d-4cbd-a93a-3673354f3172',
+};
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
+  providers: [provideYConfig(config), provideHttpClient()],
 };
