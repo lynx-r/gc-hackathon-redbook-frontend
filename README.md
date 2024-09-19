@@ -1,3 +1,7 @@
+# Запуск
+
+Детали запуска приложения находятся в [Красная книга (CMS)](https://github.com/lynx-r/gc-hackathon-redbook-cms)
+
 # RedbookFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
